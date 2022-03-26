@@ -1,0 +1,94 @@
+:root{
+	--main-BG: hsl(217, 54%, 11%);
+	--card-BG: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+	--pg: hsl(215, 51%, 70%);
+	--eth-cl: hsl(178, 100%, 50%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+	background-color: var(--main-BG);
+	color: var(--white);
+	font-family: Outfit;
+	margin-top: -14%;
+}
+.card{
+	background-color: var(--card-BG);
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border-radius: 15px;
+}
+.img-1{
+	padding: 7% 7%;
+    border-radius: 50px;
+    width: 310px;
+}
+.time{
+	width: 18px;
+    margin-right: 8px;
+}
+.user-photo{
+    width: 30px;
+    border: 2px solid;
+    border-radius: 22px;
+    margin: 10px 14px 20px 20px;
+}
+.creator{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.creator-name{
+	margin-top: -8px;
+}
+h1{
+	padding: 0% 7%;
+    margin-top: -10px;
+    font-size: 23px;
+}
+p{
+	padding: 0% 7%;
+    font-size: 19px;
+    color: var(--pg)
+}
+.eth{
+	padding: 0% 7%;
+    color: var(--eth-cl);
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.ethereum{
+	margin-right: 5px;
+}
+.days{
+	display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    width: 203px;
+    color: var(--pg)
+}
+.line{
+	background-color: var(--line);
+    height: 2px;
+    width: 321px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.cl-name{
+	color: var(--pg)
+}
